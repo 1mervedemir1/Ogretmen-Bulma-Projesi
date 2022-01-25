@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school6"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/recylerview_row_imageview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/recylerview_row_username_text"
+        android:layout_gravity="center"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="312dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/yorum_gonder"
+        app:layout_constraintEnd_toStartOf="@+id/userinfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recylerview_row_username_text"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/recylerview_row_username_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="User Name Text"
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/recylerview_row_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userinfo"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="3dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="-Kullanıcı Bilgileri-"
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/recylerview_row_imageview"
+        app:layout_constraintTop_toBottomOf="@+id/recylerview_row_username_text" />
+
+    <TextView
+        android:id="@+id/recylerview_row_useralan_text"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="User Alan Text"
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recylerview_row_userEmail_text" />
+
+    <TextView
+        android:id="@+id/editTextOzgecmis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recylerview_row_imageview"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Özgeçmiş (en fazla 240 karakter)"
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recylerview_row_imageview" />
+
+    <TextView
+        android:id="@+id/editTextyorumlar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="-Öğretmene Soru Sorun-"
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recylerview_row_userOzgecmis_text" />
+
+    <TextView
+        android:id="@+id/recylerview_row_userEmail_text"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/userinfo"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="User Mail Text"
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="18sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/recylerview_row_useralan_text"
+        app:layout_constraintTop_toBottomOf="@+id/userinfo" />
+
+
+    <TextView
+        android:id="@+id/recylerview_row_userOzgecmis_text"
+        android:layout_width="0dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="User Ozgecmis Text"
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextOzgecmis" />
+
+    <TextView
+        android:id="@+id/recylerview_row_Yorumlar_text"
+        android:layout_width="0dp"
+        android:layout_height="103dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="..."
+        android:textAlignment="center"
+        android:textColor="#5F7573"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_yorumlar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextyorumlar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editText_yorumlar"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:hint="Soru Sor..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/recylerview_row_Yorumlar_text" />
+
+    <Button
+        android:id="@+id/yorum_gonder"
+        android:layout_width="81dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:text="Gönder"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText_yorumlar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1047902876169",
+    "project_id": "akademi3-34fb8",
+    "storage_bucket": "akademi3-34fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047902876169:android:c0067fc4242aaec5fcbed8",
+        "android_client_info": {
+          "package_name": "com.mervedemir.akademi3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047902876169-a8jq76kvk25a5fki0o08ehlj3299mamj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCafifB_F6DSHgje7kwWggEYvFTMGb82KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047902876169-a8jq76kvk25a5fki0o08ehlj3299mamj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
